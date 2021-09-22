@@ -1,0 +1,8 @@
+prefix=/home/alex/sena_ws/devel
+
+Name: sena_msgs
+Description: Description of sena_msgs
+Version: 0.0.0
+Cflags: -I/home/alex/sena_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime std_msgs std_srvs geometry_msgs

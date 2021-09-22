@@ -1,0 +1,8 @@
+prefix=/home/alex/sena_ws/devel
+
+Name: sena_controller
+Description: Description of sena_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lsena_controller
+Requires: geometry_msgs roscpp rospy sena_msgs sensor_msgs std_msgs sena_msgs
